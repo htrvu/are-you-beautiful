@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/dropzone.min.css" integrity="sha512-jU/7UFiaW5UBGODEopEqnbIAHOI8fO6T99m7Tsmqs2gkdujByJfkCbbfPSN4Wlqlb9TGnsuC0YgUgWkRBK7B9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Are you beautiful? 💗</title>
+</head>
+<body>
+  <div class="header">
+    <h1>Ứng dụng đánh giá nhan sắc phái nữ</h1>
+    <h2>Đồ án cuối khóa - Lớp bồi dưỡng AI cơ bản - AIC2021</h2>
+    <h2>Học viên: Hoàng Trọng Vũ - AIC2021-SV981</h2>
+  </div>
+
+  <div class="main">
+    <div class="introduce">
+      <p>Bạn đã bao giờ phải căng não khi trả lời câu hỏi kiểu "Nhìn mình có xinh không?"?</p>
+      <p>Hãy để tôi trả lời giúp, với sự phân tích của Trí tuệ nhân tạo!</p>
+      <p>Lần chạy đầu tiên có thể hơi lâu và kết quả chỉ mang tính tham khảo nhé 😉</p>
+      <p><span style="text-decoration: underline; color: #f44336;">Lưu ý:</span> Chỉ áp dụng với "phái nữ"! 😜</p>
+    </div>
+  
+    <div class="drag-field">
+      <div class="input">
+        <form action="/file-upload" class="dropzone" id="dropzone">
+          <div class="dz-message needsclick">
+            <img class="drop-file__img" src="./assets/images/file.png" alt="">
+            <p class="drop-file__text">Duyệt hoặc kéo thả ảnh vào đây</p>
+          </div>
+        </form>
+        <button class="btn submit">Let's go!</button>
+      </div>
+    </div>
+
+    <div class="result-wrapper">
+      <div class="result">
+        <img class="output-img" src="" alt="">
+        <p class="output-text"></p>
+      </div>
+      <button class="btn try-again">Thử lại</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js" integrity="sha512-oQq8uth41D+gIH/NJvSJvVB85MFk1eWpMK6glnkg6I7EdMqC1XVkW7RxLheXwmFdG03qScCM7gKS/Cx3FYt7Tg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+Dataset:
+Gender: https://www.kaggle.com/cashutosh/gender-classification-dataset
+Beauty: https://www.kaggle.com/gpiosenka/beauty-detection-data-set

@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.header {
+  margin: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.header * {
+  padding: 4px;
+}
+
+.header h1 {
+  color: #f44336;
+}
+
+.main {
+  margin: 48px auto;
+  width: 960px;
+  max-width: calc(100% - 32px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduce {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.drag-field {
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  max-width: calc(100% - 48px);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dropzone {
+  border: 2px dashed  rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 16px;
+  display: flex;
+  transition: opacity 0.2s ease;
+}
+
+.dropzone:hover {
+  opacity: 0.7;
+}
+
+.dropzone .dz-progress{
+  display:none;
+}
+
+.dropzone .dz-message {
+  margin: 16px 0;
+}
+
+.dropzone .dz-preview {
+  margin: auto;
+}
+
+.drop-file__img {
+  width: 80px;
+}
+
+.drop-file__text {
+  margin-top: 8px;
+}
+
+.btn {
+  margin: 16px auto;
+  padding: 8px 16px;
+  font-size: 18px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.result-wrapper {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.output-text {
+  margin-top: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.output-img {
+  max-width: 900px;
+  max-height: 900px;
+} 
